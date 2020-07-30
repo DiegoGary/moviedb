@@ -10,7 +10,10 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'ControladorPeliculas@index')
+    ->name('movies.index');
+Route::get('/movies',  'ControladorPeliculas@index')
+->name('movies.index');
+Route::get('/movies/{id}', 'ControladorPeliculas@show')
+    ->name('movies.show');
 
-Route::get('/', function () {
-    return view('welcome');
-});
