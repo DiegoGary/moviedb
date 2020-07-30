@@ -7,6 +7,7 @@ Bootstrap 4.5
 Font awesome para los íconos
 ## Instrucciones para correr
 Antes de poder correr la aplicación, es necesario correr los siguientes comandos:
+
     1. composer update
     2. npm install
     3. Agregar una línea en el archivo .env con la clave de la API de TheMovieDB:
